@@ -12,7 +12,6 @@ final class SchedulerQueuesLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'scheduler-queues-livewire');
-        Livewire\Livewire::component('scheduler-queues-livewire-overview', Liberu\Foundation\SchedulerQueuesLivewire\Livewire\Overview::class);
+        Livewire::component('scheduler-queues-livewire-overview', Liberu\Foundation\SchedulerQueuesLivewire\Livewire\Overview::class);
     }
 }
-
