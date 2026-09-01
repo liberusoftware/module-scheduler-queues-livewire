@@ -8,6 +8,8 @@ use Livewire\Component;
 
 final class Overview extends Component
 {
-    public function render(): mixed { return view('scheduler-queues-livewire::overview'); }
+    public function render(): mixed
+    {
+        return view('scheduler-queues-livewire::overview');
+    }
 }
-
